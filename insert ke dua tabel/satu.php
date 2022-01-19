@@ -16,6 +16,7 @@ if(isset($_POST['submit'])){
 	mysqli_query($conn,$sql2);
  
 	header('location:satu.php');
+	
 
 
 }
